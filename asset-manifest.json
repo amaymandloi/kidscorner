@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kidscorner/static/css/main.073c9b0a.css",
-    "main.js": "/kidscorner/static/js/main.88ceb15a.js",
+    "main.js": "/kidscorner/static/js/main.54dc84e7.js",
     "static/js/787.a558692f.chunk.js": "/kidscorner/static/js/787.a558692f.chunk.js",
     "static/media/kc03.jpg": "/kidscorner/static/media/kc03.76faf5151fc12abd7852.jpg",
     "static/media/kc05.jpg": "/kidscorner/static/media/kc05.dfb42cdc1742ab38d938.jpg",
@@ -11,11 +11,11 @@
     "static/media/kc02.jpg": "/kidscorner/static/media/kc02.57f7aae5ffa689ffd463.jpg",
     "index.html": "/kidscorner/index.html",
     "main.073c9b0a.css.map": "/kidscorner/static/css/main.073c9b0a.css.map",
-    "main.88ceb15a.js.map": "/kidscorner/static/js/main.88ceb15a.js.map",
+    "main.54dc84e7.js.map": "/kidscorner/static/js/main.54dc84e7.js.map",
     "787.a558692f.chunk.js.map": "/kidscorner/static/js/787.a558692f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.88ceb15a.js"
+    "static/js/main.54dc84e7.js"
   ]
 }
