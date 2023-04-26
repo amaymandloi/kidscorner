@@ -13,7 +13,27 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import AdbIcon from "@mui/icons-material/Adb";
 
+import { Link } from "react-router-dom";
+
 const pages = ["Home", "About", "Gallery", "Contact Us"];
+const navPages = [
+  {
+    link: "/",
+    name: "Home",
+  },
+  {
+    link: "/",
+    name: "About",
+  },
+  {
+    link: "/gallery",
+    name: "Gallery",
+  },
+  {
+    link: "/",
+    name: "Contact Us",
+  },
+];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function NavBar() {
@@ -92,9 +112,18 @@ function NavBar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+              {navPages.map((item) => (
+                <MenuItem key={item.name} onClick={handleCloseNavMenu}>
+                  {/* <Typography textAlign="center">{page}</Typography> */}
+                  <Link
+                    to={item.link}
+                    style={{
+                      textDecoration: "none",
+                      color: "black",
+                    }}
+                  >
+                    {item.name}
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -119,13 +148,21 @@ function NavBar() {
             KIDS CORNER
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {navPages.map((item) => (
               <Button
-                key={page}
+                key={item.name}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-                {page}
+                <Link
+                  to={item.link}
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                  }}
+                >
+                  {item.name}
+                </Link>
               </Button>
             ))}
           </Box>

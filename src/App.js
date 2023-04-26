@@ -1,15 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
-import NavBar from "./Component/Navbar";
-import { Box, Typography } from "@mui/material";
-
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router/Routes";
 function App() {
-  return (
-    <Box>
-      <NavBar />
-      <Typography>Hello World!</Typography>
-    </Box>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
