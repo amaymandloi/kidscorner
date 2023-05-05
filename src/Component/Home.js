@@ -1,12 +1,13 @@
 import React from "react";
 import NavBar from "./Navbar";
 import { Box, Typography } from "@mui/material";
+import ImageStepper from "./ImageStepper";
 
 export default function Home() {
   return (
     <Box>
       <NavBar />
-      <Typography
+      {/* <Typography
         sx={{
           m: 3,
           textAlign: "center",
@@ -15,7 +16,8 @@ export default function Home() {
         fontWeight={"bold"}
       >
         Welcome to Kids Corner School Dhamnod
-      </Typography>
+      </Typography> */}
+      <ImageStepper/>
     </Box>
   );
 }
