@@ -23,7 +23,7 @@ const navPages = [
     name: "Home",
   },
   {
-    link: "/",
+    link: "/about",
     name: "About Us",
   },
   {
@@ -37,7 +37,7 @@ const navPages = [
 ];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-function NavBar() {
+function NavBar(props) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -58,11 +58,10 @@ function NavBar() {
 
   return (
     <AppBar
-      position="fixed"
+      position={props.position}
       sx={{
         backgroundColor: "#008080",
-        // backgroundColor: "#0A008080",
-        opacity: .9,
+        opacity: (props.position == "static" ? 1:.9),
         height:70
       }}
     >

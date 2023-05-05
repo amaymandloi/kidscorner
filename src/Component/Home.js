@@ -6,7 +6,7 @@ import ImageStepper from "./ImageStepper";
 export default function Home() {
   return (
     <Box>
-      <NavBar />
+      <NavBar posittion={'fixed'}/>
       {/* <Typography
         sx={{
           m: 3,
