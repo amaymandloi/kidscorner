@@ -9,7 +9,6 @@ import kc02 from "../assets/kc02.jpg";
 import kc03 from "../assets/kc03.jpg";
 import kc04 from "../assets/kc04.jpg";
 import kc05 from "../assets/kc05.jpg";
-import kc06 from "../assets/kc06.jpg";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -34,10 +33,6 @@ const images = [
     label: "kidsCorner-5",
     imgPath: kc05,
   },
-  {
-    label: "kidsCorner-6",
-    imgPath: kc06,
-  },
 ];
 
 export default function ImageStepper() {
@@ -49,7 +44,10 @@ export default function ImageStepper() {
     setActiveStep(step);
   };
   return (
-    <Box bgcolor={"#ffffff"} mt={-9}>
+    <Box bgcolor={"#ffffff"} mt={-9} sx={{
+      height:"70%",
+      width:"100%"
+    }}>
       <AutoPlaySwipeableViews
         axis={theme.direction === "rtl" ? "x-reverse" : "x"}
         index={activeStep}
@@ -64,25 +62,33 @@ export default function ImageStepper() {
               justifyContent: "center",
             }}
           >
-            {Math.abs(activeStep - index) <= 2 ? (
+            {/* {Math.abs(activeStep - index) <= 2 ? (
               <Box
                 component="img"
                 sx={{
-                  height: "80%",
                   width: "100%",
                 }}
                 src={step.imgPath}
                 alt={step.label}
               />
-            ) : null}
+            ) : null} */}
+            <Box
+                component="img"
+                sx={{
+                  width: "100%",
+                }}
+                src={step.imgPath}
+                alt={step.label}
+              />
           </div>
+       
         ))}
       </AutoPlaySwipeableViews>
-      <MobileStepper
+      {/* <MobileStepper
         steps={maxSteps}
         position="static"
         activeStep={activeStep}
-      />
+      /> */}
     </Box>
   );
 }
