@@ -61,14 +61,14 @@ function NavBar(props) {
       position={props.position}
       sx={{
         backgroundColor: "#008080",
-        opacity: (props.position == "static" ? 1:.9),
-        height:70
+        opacity: props.position == "static" ? 1 : 0.9,
+        height: 70,
       }}
     >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} /> */}
-          <img src={iconPeacock} alt={"icon"}/>
+          <img src={iconPeacock} alt={"icon"} />
           <Typography
             variant="h6"
             noWrap
@@ -117,18 +117,17 @@ function NavBar(props) {
               }}
             >
               {navPages.map((item) => (
-                <MenuItem key={item.name} onClick={handleCloseNavMenu}>
-                  {/* <Typography textAlign="center">{page}</Typography> */}
-                  <Link
-                    to={item.link}
-                    style={{
-                      textDecoration: "none",
-                      color: "black",
-                    }}
-                  >
+                <Link
+                  to={item.link}
+                  style={{
+                    textDecoration: "none",
+                    color: "black",
+                  }}
+                >
+                  <MenuItem key={item.name} onClick={handleCloseNavMenu}>
                     {item.name}
-                  </Link>
-                </MenuItem>
+                  </MenuItem>
+                </Link>
               ))}
             </Menu>
           </Box>
@@ -153,21 +152,21 @@ function NavBar(props) {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {navPages.map((item) => (
-              <Button
-                key={item.name}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+              <Link
+                to={item.link}
+                style={{
+                  textDecoration: "none",
+                  color: "white",
+                }}
               >
-                <Link
-                  to={item.link}
-                  style={{
-                    textDecoration: "none",
-                    color: "white",
-                  }}
+                <Button
+                  key={item.name}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: "white", display: "block" }}
                 >
                   {item.name}
-                </Link>
-              </Button>
+                </Button>
+              </Link>
             ))}
           </Box>
 
