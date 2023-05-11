@@ -1,21 +1,16 @@
 import { EmailRounded, PhoneInTalkRounded } from "@mui/icons-material";
-import { Box, Grid, Stack, Typography } from "@mui/material";
+import { Box, Divider, Grid, Stack, Typography } from "@mui/material";
 import React from "react";
 
 export default function Footer() {
   return (
-    <Box
-      sx={{
-        height: 200,
-        bgcolor: "#80cf7f",
-        position: "relative",
-      }}
-    >
+    <Box>
       <Grid
         container
         spacing={{ xs: 2, md: 3 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
         p={"20px"}
+        bgcolor={"#80cf7f"}
       >
         <Grid item xs={2} sm={4} md={4}>
           <Typography
@@ -81,15 +76,18 @@ export default function Footer() {
           </Typography>
         </Grid>
       </Grid>
+      <Divider
+        sx={{
+          height: 8,
+          bgcolor: "#f9f871",
+        }}
+      />
       <Stack
         direction={"row"}
-        justifyContent={"space-between"}
+        justifyContent={"space-around"}
         alignItems={"center"}
-        height={40}
         width={"100%"}
         bgcolor={"#008080"}
-        position={"absolute"}
-        bottom={0}
       >
         <Typography
           color={"white"}
