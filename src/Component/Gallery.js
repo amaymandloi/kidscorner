@@ -3,6 +3,7 @@ import NavBar from "./Navbar";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { Box, Typography } from "@mui/material";
+import Footer from "./Footer";
 import kc01 from "../assets/kc01.jpg";
 import kc02 from "../assets/kc02.jpg";
 import kc03 from "../assets/kc03.jpg";
@@ -14,8 +15,11 @@ export default function Gallery() {
   const imageList = [kc01, kc02, kc03, kc04, kc05, kc06];
   return (
     <Box>
-      <NavBar />
-      <ImageList cols={3}>
+      <NavBar position={"static"} />
+      <ImageList cols={3} sx={{
+        mt: 9,
+        mb:4
+      }}>
         {imageList.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -29,6 +33,7 @@ export default function Gallery() {
           </ImageListItem>
         ))}
       </ImageList>
+      <Footer/>
     </Box>
   );
 }
