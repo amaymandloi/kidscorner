@@ -32,7 +32,7 @@ export default function Home() {
               mb={2}
               variant="h5"
               fontWeight={"bold"}
-              color={"#008080"}
+              color={"#0C134F"}
             >
               Dear Parents and Students,
             </Typography>
