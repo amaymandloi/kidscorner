@@ -2,7 +2,7 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import NavBar from "./Navbar";
 import Footer from "./Footer";
-import kc03 from "../assets/kc03.jpg";
+import kc03 from "../assets/galleryImage/kc01.png";
 
 export default function AboutUs() {
   return (
@@ -13,7 +13,7 @@ export default function AboutUs() {
           mb={2}
           variant="h5"
           fontWeight={"bold"}
-          color={"#008080"}
+          color={"#0C134F"}
           fontSize={28}
         >
           Know about Kids Corner School
