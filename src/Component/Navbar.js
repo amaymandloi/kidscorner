@@ -31,7 +31,11 @@ const navPages = [
     name: "Gallery",
   },
   {
-    link: "/",
+    link: "/admission",
+    name: "Admission",
+  },
+  {
+    link: "/contact",
     name: "Contact Us",
   },
 ];
