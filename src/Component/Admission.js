@@ -53,7 +53,7 @@ export default function Admission() {
             <List dense>
               {listOfDocument.map((item, index) => (
                 <ListItem>
-                  <Typography fontFamily={"fantasy"} fontWeight={"bold"}>
+                  <Typography fontWeight={"bold"}>
                     {`${index + 1}. ${item}`}
                   </Typography>
                 </ListItem>
