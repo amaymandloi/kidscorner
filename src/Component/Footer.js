@@ -10,24 +10,24 @@ export default function Footer() {
         spacing={{ xs: 2, md: 3 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
         p={"20px"}
-        bgcolor={"#80cf7f"}
+        bgcolor={"#E57C23"}
       >
         <Grid item xs={2} sm={4} md={4}>
           <Typography
-            color={"#f9f871"}
+            color={"#fff"}
             variant="h5"
             fontSize={22}
             fontWeight={"bold"}
           >
             Our Location
           </Typography>
-          <Typography color={"#f9f871"} fontWeight={"bold"} variant="body1">
+          <Typography color={"#fff"} fontWeight={"bold"} variant="body1">
             6F79+RV6, Muktanand Parisar, Dhamnod, Madhya Pradesh 454552
           </Typography>
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
           <Typography
-            color={"#f9f871"}
+            color={"#fff"}
             variant="h5"
             fontSize={22}
             fontWeight={"bold"}
@@ -37,11 +37,11 @@ export default function Footer() {
           <Stack direction={"row"}>
             <PhoneInTalkRounded
               sx={{
-                color: "#f9f871",
+                color: "#fff",
               }}
             />
             <Typography
-              color={"#f9f871"}
+              color={"#fff"}
               fontWeight={"bold"}
               variant="body1"
               ml={1}
@@ -52,11 +52,11 @@ export default function Footer() {
           <Stack direction={"row"} mt={1}>
             <EmailRounded
               sx={{
-                color: "#f9f871",
+                color: "#fff",
               }}
             />
             <Typography
-              color={"#f9f871"}
+              color={"#fff"}
               fontWeight={"bold"}
               variant="body1"
               ml={1}
@@ -67,7 +67,7 @@ export default function Footer() {
         </Grid>
         <Grid item xs={2} sm={4} md={4}>
           <Typography
-            color={"#f9f871"}
+            color={"#fff"}
             variant="h5"
             fontSize={22}
             fontWeight={"bold"}
@@ -78,8 +78,8 @@ export default function Footer() {
       </Grid>
       <Divider
         sx={{
-          height: 8,
-          bgcolor: "#f9f871",
+          height: 1,
+          bgcolor: "#fff",
         }}
       />
       <Stack
@@ -87,7 +87,7 @@ export default function Footer() {
         justifyContent={"space-around"}
         alignItems={"center"}
         width={"100%"}
-        bgcolor={"#008080"}
+        bgcolor={"#E57C23"}
       >
         <Typography
           color={"white"}
