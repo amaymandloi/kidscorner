@@ -58,9 +58,9 @@ function NavBar(props) {
 
   return (
     <AppBar
-      position={props.position}
+      // position={props.position}
       sx={{
-        backgroundColor: "#008080",
+        backgroundColor: "#0C134F",
         opacity: props.position == "static" ? 1 : 0.9,
         height: 70,
       }}
