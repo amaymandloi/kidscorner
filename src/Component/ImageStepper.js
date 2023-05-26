@@ -4,11 +4,15 @@ import MobileStepper from "@mui/material/MobileStepper";
 import SwipeableViews from "react-swipeable-views-react-18-fix";
 import { autoPlay } from "react-swipeable-views-utils";
 import { Box } from "@mui/material";
-import kc01 from "../assets/kc01.jpg";
-import kc02 from "../assets/kc02.jpg";
-import kc03 from "../assets/kc03.jpg";
-import kc04 from "../assets/kc04.jpg";
-import kc05 from "../assets/kc05.jpg";
+import kc01 from "../assets/homeImages/kc01.png";
+import kc02 from "../assets/homeImages/kc02.png";
+import kc03 from "../assets/homeImages/kc03.png";
+import kc04 from "../assets/homeImages/kc04.png";
+import kc05 from "../assets/homeImages/kc05.png";
+import kc06 from "../assets/homeImages/kc06.png";
+import kc07 from "../assets/homeImages/kc07.png";
+import kc08 from "../assets/homeImages/kc08.png";
+import kc09 from "../assets/homeImages/kc09.png";
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -32,6 +36,22 @@ const images = [
   {
     label: "kidsCorner-5",
     imgPath: kc05,
+  },
+  {
+    label: "kidsCorner-5",
+    imgPath: kc06,
+  },
+  {
+    label: "kidsCorner-5",
+    imgPath: kc07,
+  },
+  {
+    label: "kidsCorner-5",
+    imgPath: kc08,
+  },
+  {
+    label: "kidsCorner-5",
+    imgPath: kc09,
   },
 ];
 
