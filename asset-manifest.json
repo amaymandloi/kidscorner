@@ -1,21 +1,34 @@
 {
   "files": {
     "main.css": "/kidscorner/static/css/main.073c9b0a.css",
-    "main.js": "/kidscorner/static/js/main.141a2aa5.js",
+    "main.js": "/kidscorner/static/js/main.3cd3a71f.js",
     "static/js/787.a558692f.chunk.js": "/kidscorner/static/js/787.a558692f.chunk.js",
-    "static/media/kc03.jpg": "/kidscorner/static/media/kc03.76faf5151fc12abd7852.jpg",
-    "static/media/kc05.jpg": "/kidscorner/static/media/kc05.dfb42cdc1742ab38d938.jpg",
-    "static/media/kc06.jpg": "/kidscorner/static/media/kc06.ca3d6c40ef806fdf7694.jpg",
-    "static/media/kc01.jpg": "/kidscorner/static/media/kc01.9bd13cd08896a739595b.jpg",
-    "static/media/kc04.jpg": "/kidscorner/static/media/kc04.9bd13cd08896a739595b.jpg",
-    "static/media/kc02.jpg": "/kidscorner/static/media/kc02.57f7aae5ffa689ffd463.jpg",
+    "static/media/kc03.png": "/kidscorner/static/media/kc03.8d1d20cd51f2d918eaa4.png",
+    "static/media/kc17.png": "/kidscorner/static/media/kc17.862ab6f5b6b112954427.png",
+    "static/media/kc08.png": "/kidscorner/static/media/kc08.306efe9f12821b10c1b5.png",
+    "static/media/kc14.png": "/kidscorner/static/media/kc14.2c887cd5a9aff5386d12.png",
+    "static/media/kc05.png": "/kidscorner/static/media/kc05.ec67285ddd095652fe43.png",
+    "static/media/kc07.png": "/kidscorner/static/media/kc07.5499ae17a8b7b0ac235f.png",
+    "static/media/kc01.png": "/kidscorner/static/media/kc01.5c80e39288fd6ffcf7a1.png",
+    "static/media/kc09.png": "/kidscorner/static/media/kc09.f55fe94a665afa1f9980.png",
+    "static/media/kc06.png": "/kidscorner/static/media/kc06.25e93df85705a93c7592.png",
+    "static/media/kc15.png": "/kidscorner/static/media/kc15.f55fe94a665afa1f9980.png",
+    "static/media/kc02.png": "/kidscorner/static/media/kc02.5c80e39288fd6ffcf7a1.png",
+    "static/media/kc11.png": "/kidscorner/static/media/kc11.77f138ebce3cf54ffea2.png",
+    "static/media/kc16.png": "/kidscorner/static/media/kc16.4b775e1e8d978ce47569.png",
+    "static/media/kc10.png": "/kidscorner/static/media/kc10.c4ddb244dfcb948a6c16.png",
+    "static/media/kc04.png": "/kidscorner/static/media/kc04.c311be732b6a29a1e964.png",
+    "static/media/kc18.png": "/kidscorner/static/media/kc18.c311be732b6a29a1e964.png",
+    "static/media/kc13.png": "/kidscorner/static/media/kc13.66e5312688e59e2047c4.png",
+    "static/media/kc12.png": "/kidscorner/static/media/kc12.0fa3527689326e85edb6.png",
+    "static/media/kc-qr.png": "/kidscorner/static/media/kc-qr.5e399fb32a7059501da4.png",
     "index.html": "/kidscorner/index.html",
     "main.073c9b0a.css.map": "/kidscorner/static/css/main.073c9b0a.css.map",
-    "main.141a2aa5.js.map": "/kidscorner/static/js/main.141a2aa5.js.map",
+    "main.3cd3a71f.js.map": "/kidscorner/static/js/main.3cd3a71f.js.map",
     "787.a558692f.chunk.js.map": "/kidscorner/static/js/787.a558692f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.141a2aa5.js"
+    "static/js/main.3cd3a71f.js"
   ]
 }
