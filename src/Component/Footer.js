@@ -65,7 +65,7 @@ export default function Footer() {
             </Typography>
           </Stack>
         </Grid>
-        <Grid item xs={2} sm={4} md={4}>
+        {/* <Grid item xs={2} sm={4} md={4}>
           <Typography
             color={"#fff"}
             variant="h5"
@@ -74,7 +74,7 @@ export default function Footer() {
           >
             Follow Us on
           </Typography>
-        </Grid>
+        </Grid> */}
       </Grid>
       <Divider
         sx={{
