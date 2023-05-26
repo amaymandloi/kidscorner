@@ -6,8 +6,8 @@ import kc03 from "../assets/kc03.jpg";
 
 export default function AboutUs() {
   return (
-    <Box mt={9}>
-      <NavBar posittion={"static"} />
+    <Box>
+      <NavBar position={"static"} />
       <Box sx={{ flexGrow: 1, mt: 10, mb: 10, ml: 8, mr: 8 }}>
         <Typography
           mb={2}
